@@ -221,6 +221,7 @@ section.indice h1.i-titulo{
     margin-left: 35px;
 }
 section.indice li{
+    display: static;
     line-height: 25px;
 }
 section.indice li a{
