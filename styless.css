@@ -1,0 +1,75 @@
+*{
+    font-family: 'Muli';
+}
+body{
+    margin: 0;
+    padding-top: 0.01567px;
+}
+header.cabecalho{
+    display: block;
+    margin: 0;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: static;
+    margin: auto;
+    padding: 20px 35px 20px 35px;
+    display: grid;
+    grid-template-columns: 20% 71% 9%;/* A segunda coluna é três vezes maior que a primeira e a terceira */
+    gap: 0px; /* Espaçamento entre as colunas */
+}
+.logo .tutorial{
+    position: absolute;
+    font-size: 14.5px;
+    color: rgba(53, 57, 63, 0.671);
+    margin-top: 3px;
+}
+.logo a img{
+    width: 134.5px;
+    height: 26.5px;
+    margin-right: 3px;
+}
+div{
+    border: 1px solid;
+}
+.div-menu a{
+    color: black;
+    font-weight: 600;
+}
+.div-menu{
+    padding: 0;
+}
+.div-menu ul{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 497px;
+}
+.div-menu ul li{
+    display: inline-block;
+    margin-right: 35px;
+    border: 1px solid;
+    text-align: center;
+}
+.div-login{
+    padding-left: 5px;
+}
+.navbar-second{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    border: 1px solid;
+}
+
+
+main{
+    width: 40px;
+}
